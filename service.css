@@ -1,0 +1,276 @@
+body{
+    background-color: rgb(213, 241, 241);
+    /* font-family: 'Tajawal', sans-serif; */
+    width: 960;
+}
+
+@media(max-width:600px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .narm h3{
+        font-size: 1.5em;
+    }
+}
+
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+/* =============
+button
+================= */
+.more{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(42, 235, 241);
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding: 5px 20px;
+}
+
+/* =============
+header section
+================= */
+header{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.header{
+    padding: 1px 0 1px 0;
+}
+
+
+
+/* =============
+nav section
+================= */
+nav{
+    margin-top: 1rem;
+    font-size: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.navitem{
+    display: inline-block;
+    margin: 10px 60px 10px 60px;
+    text-decoration: none;
+    color: rgb(30, 211, 193);
+
+}
+
+nav a:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 0;
+}
+
+
+/* =============
+reza info little
+================= */
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem ;
+    text-align: right;
+    justify-content: space-between;
+}
+
+
+.explain{
+    width: 50%;
+    margin-right: 2rem;
+}
+
+
+
+
+
+.identityimg img{
+    border-radius: 20px;
+    min-width: 100%;
+
+    width: 30%
+
+}
+
+.bridge{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+
+/* =============
+info responsive
+================= */
+@media(max-width:600px){
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+   .info{
+       flex-direction: column-reverse;
+       text-align: center;
+   }
+
+   .explain{
+       text-align: right;
+       width: 100%;
+       margin: 3rem auto;
+   }
+
+   .more{
+       display: inline-block;
+       text-align: right;
+   }
+}
+
+/* ==========
+cards section
+============ */
+
+.cars{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body, .card-header{
+    text-align: right;
+}
+
+.narm{
+    text-align: center;
+    margin: 3rem auto;
+}
+
+
+@media(max-width:600px){
+    .cars{
+        flex-direction: column;
+    }
+
+    .car1{
+        margin: 0 auto;
+        margin-bottom: 1rem;
+
+    }
+}
+
+.car22{
+    max-width: 18rem;
+}
+
+/* =============
+footer section
+================= */
+
+footer{
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    text-align:center;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+}
+
+.adress{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* =============
+social media
+================= */
+
+
+.social{
+    display: inline-block;
+    letter-spacing: 4px;
+
+}
+
+.social div{
+    margin-bottom: 2rem;
+    margin: 1rem 3rem;
+}
+
+.ins{
+    display: inline-block;
+}
+
+.tel{
+    display: inline-block;
+}
+
+
+
+.car2{
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+/* ==============
+=================
+
+service page css
+
+=================
+================= */
+
+
+
+.service{
+    margin: 3rem auto
+}
+
+.narm{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+
+.narm h3{
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============
+=================
+
+service page css
+
+=================
+================= */
+
+
+
