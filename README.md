@@ -1,5 +1,7 @@
 # riza project
 
+
+
 i was getting a hang on CSS and responsive CSS 
 <br>
 didnt know a thing about what backend was :D
@@ -10,7 +12,6 @@ tried to achive a minimal UI
 <br>
 as you can see i'm not good at UI
 <br>
-
 
 
 key elements of this project :
